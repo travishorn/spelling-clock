@@ -1,8 +1,36 @@
 {
 	"name": "spelling-clock",
-	"private": true,
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"description": "A creative digital time display using analog clocks as pixels. Each digit is formed by a grid of small analog clocks where the hands rotate to create visual numbers.",
 	"type": "module",
+	"private": true,
+	"keywords": [
+		"clock",
+		"time",
+		"analog",
+		"digital",
+		"art",
+		"svelte",
+		"sveltekit",
+		"typescript",
+		"tailwindcss",
+		"creative",
+		"visual",
+		"animation"
+	],
+	"author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/travishorn/spelling-clock.git"
+	},
+	"homepage": "https://github.com/travishorn/spelling-clock#readme",
+	"bugs": {
+		"url": "https://github.com/travishorn/spelling-clock/issues"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
