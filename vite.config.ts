@@ -4,5 +4,5 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
-	base: '/spelling-clock/'
+	base: 'https://travishorn.github.io/spelling-clock/'
 });
